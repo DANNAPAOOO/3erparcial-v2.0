@@ -3,7 +3,7 @@
 int multiplicacion(int articulos, int precio){
    return articulos*precio;
 }
-//VERSION3 EXAMEN PRACTICO 13-05-24//
+
 int main() {
 
     char nombre[50];
@@ -35,7 +35,7 @@ int main() {
             std::cout<<"cuando hayas terminado introduce 0 para finalizar.\n";
             std::cout<<"ingrese la cantidad vendida : ";
             std::cin>>articulos;
-    //Funcion repetitiva while//
+    
             while (articulos !=0) {
               std::cout<<"ingrese el precio : ";
               std::cin>>precio;
